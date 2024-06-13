@@ -1,0 +1,99 @@
+body{
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+header{
+    flex-wrap: wrap;
+}
+
+h2{
+    text-transform: uppercase;
+    text-align: start;
+}
+
+header{
+    color:rgb(10, 10, 10);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#foto-karina{
+    background-color:rgba(245, 245, 245, 0.411);
+    border-radius: 999px;
+    max-width: 100%;
+    width: 500px;
+    text-align: center;
+}
+
+#acerca_de_mi{
+    width: 45%;
+    background-color:rgba(72, 72, 128, 0.219);
+}
+
+.columna-0{
+    display: flex;
+    justify-content:center ;
+    background-color:white;
+}
+
+/*.parrafo{
+    width: 50%;
+}*/
+
+#experiencia{
+    width: 80%;
+    background-color: rgba(98, 115, 146, 0.336);
+    flex-direction: column;    
+}
+
+.container-experiencia{
+    display: flex;
+    justify-content: center;
+}
+
+.columna-1{
+    padding: 50px;
+    margin: 0 10px;
+    border: 0 10px;
+}
+
+.columna-2{
+    padding: 50px;
+    margin: 0 10px;
+    border: 0 10px;
+}
+
+#contacto{
+    background-color:rgba(245, 245, 245, 0.904);
+    text-align: start;
+}
+
+#educacion{
+    background-color:rgba(245, 245, 245, 0.377);
+    text-align: start;
+}
+
+#referencias{
+    background-color:rgba(245, 245, 245, 0.904);
+    text-align: start;  
+}
+
+#container-referencias{
+display: flex;
+flex-direction: column;
+}
+
+.columna1{
+    padding: 10px;
+}
+
+.columna2{
+    padding: 10px;
+}
+
+footer{
+background-color: rgba(128, 128, 128, 0.267);
+text-align: center;
+}
